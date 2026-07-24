@@ -1,7 +1,7 @@
 # IDO-OptiChem
 Projects related to Process & Chemical Engineering: Integration of Design and Operation
 
-Public portfolio repository collecting past projects and ideas in process and chemical engineering. The repository reflects my interest in making simulations closer to reality by accounting for uncertainty, dynamic behavior, and the interaction between design and operation. Chemical engineering problems are often studied in a simplified way: a process is designed for a nominal steady state, and control considerations are added later. In practice, however, real systems are dynamic, uncertain, and often operate far from ideal assumptions.
+Public portfolio collecting past projects and ideas in process and chemical engineering. The repository reflects my interest in making simulations closer to reality by accounting for uncertainty, dynamic behavior, and the interaction between design and operation. Chemical engineering problems are often studied in a simplified way: a process is designed for a nominal steady state, and control considerations are added later. In practice, however, real systems are dynamic, uncertain, and often operate far from ideal assumptions.
 
 This repository highlights work within the broader Integration of Design and Operation (IDO) perspective, where process design, operability, and control-related questions are considered together. I was introduced to IDO at the DBTA at TU Berlin.
 
