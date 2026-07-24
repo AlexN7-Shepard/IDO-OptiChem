@@ -8,10 +8,18 @@ This repository highlights work within the broader Integration of Design and Ope
 ## Why uncertainty matters
 Real processes are affected by many sources of variability, both endogenous and exogenous. Endogenous uncertainties arise from the system itself, such as fluctuations in reaction kinetics, heat transfer coefficients, thermodynamic properties, or catalyst deactivation over time. Exogenous uncertainties come from the environment and operating context, including changes in feed composition, ambient conditions, energy availability, and market prices. Deterministic models are useful, but they often miss the practical complexity that makes real systems difficult to design and operate robustly. Relying only on nominal assumptions can lead to overly conservative worst-case margins that reduce profitability and efficiency. For that reason, several of the projects here explore how uncertainty can be represented more realistically in process models, and how simulation assumptions affect the quality of the conclusions drawn from them.
 
-## Role of optimization
-Here, optimization is used to converge toward the optimal experimental design. The goal is to identify experiment settings, operating conditions, or parameter choices that maximize the information gained from a study or improve the quality of a model.
+## Role of Stochastics and Optimization
+Here, Optimization is used to identify experimental settings, operating conditions, or parameter choices that improve model quality and increase the information gained from a study. In this sense, it serves as a practical tool for designing more informative experiments and more reliable simulation-based investigations.
 
-Rather than treating optimization as a universal solution, the repository uses it as a practical mathematical tool for designing more informative experiments and improving simulation-based investigations.
+However, many process and chemical engineering problems are not deterministic. Uncertainty in parameters, disturbances, and operating conditions means that a single optimal solution is often not sufficient. For this reason, the repository also turns to stochastic optimization, which explicitly accounts for variability and evaluates performance across multiple possible scenarios rather than only one idealized operating point.
+
+Within this framework, key methodologies include:
+
+### Two-stage stochastic programming: 
+Balancing “here-and-now” structural design decisions, such as reactor volume or heat exchanger area, with “wait-and-see” operational recourse actions, such as adjusting coolant temperatures or feed rates as uncertainties unfold.
+
+### Chance-constrained and robust optimization: 
+Ensuring that critical process constraints, such as maximum temperature limits or minimum purity requirements, are satisfied with a prescribed probability or under bounded uncertainty.
 
 ## Rules
 
